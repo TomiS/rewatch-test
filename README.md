@@ -6,8 +6,8 @@ Uses yarn 1.22 for dependencies (included in devcontainer)
 
 - Checkout repository
 - Open in VSCode. Say yes to "rebuild in container" prompt.
-- Run `yarn install`
-- Run `yarn build`
+- Run `yarn install` in vscode terminal
+- Run `yarn build` in vscode terminal
 
 Issues
 
