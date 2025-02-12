@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/frontend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "dependencies": {
+    "@monorepo/shared": "*"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "rescript": "*"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/backend",
+  "version": "1.0.0",
+  "description": "Test backend",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@monorepo/shared": "*"
+  },
+  "peerDependencies": {
+    "rescript": "*"
+  }
+}

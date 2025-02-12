@@ -1,0 +1,40 @@
+{
+  "name": "@monorepo/shared",
+  "namespace": "Shared",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "subdirs": true,
+      "type": "dev"
+    }
+  ],
+  "ppx-flags": [],
+  "bs-dependencies": [],
+  "warnings": {
+    "number": "+A-103-48-42-41-40-4",
+    "error": "+A-103-42-41-40-32-27-20-26-4-3"
+  },
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    },
+    {
+      "module": "commonjs",
+      "in-source": false
+    }
+  ],
+  "jsx": {
+    "version": 4,
+    "mode": "automatic"
+  },
+  "gentypeconfig": {
+    "module": "esmodule",
+    "moduleResolution": "node",
+    "generatedFileExtension": ".gen.tsx"
+  }
+}

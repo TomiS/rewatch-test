@@ -1,0 +1,23 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "engines": {
+    "node": ">=16.14",
+    "yarn": ">=1.21.0 <2.0"
+  },
+  "scripts": {
+    "watch": "rewatch watch .",
+    "build": "rewatch build .",
+    "clean": "rewatch clean"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "rescript": "11.1.4"
+  },
+  "devDependencies": {
+    "gentype": "4.5.0",
+    "@rolandpeelen/rewatch": "1.0.10"
+  }
+}
