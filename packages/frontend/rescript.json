@@ -24,5 +24,10 @@
   "jsx": {
     "version": 4,
     "mode": "automatic"
+  },
+  "gentypeconfig": {
+    "module": "esmodule",
+    "moduleResolution": "node",
+    "generatedFileExtension": ".gen.tsx"
   }
 }
