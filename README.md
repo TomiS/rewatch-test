@@ -5,6 +5,7 @@ Testing monorepo configuration with Rewatch
 Uses yarn 1.22 for dependencies (included in devcontainer)
 
 - Checkout repository
+- Open in VSCode. Say yes to "rebuild in container" prompt.
 - Run `yarn install`
 - Run `yarn build`
 
