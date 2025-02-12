@@ -2,7 +2,7 @@
 
 Testing monorepo configuration with Rewatch
 
-Uses yarn 1.22 for dependencies
+Uses yarn 1.22 for dependencies (included in devcontainer)
 
 - Checkout repository
 - Run `yarn install`
