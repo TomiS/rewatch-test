@@ -11,7 +11,6 @@
     "@monorepo/frontend",
     "@monorepo/shared"
   ],
-  "suffix": ".bs.js",
   "jsx": {
     "version": 4,
     "mode": "automatic"
