@@ -24,5 +24,10 @@
       "module": "commonjs",
       "in-source": false
     }
-  ]
+  ],
+  "gentypeconfig": {
+    "module": "esmodule",
+    "moduleResolution": "node",
+    "generatedFileExtension": ".gen.tsx"
+  }
 }
